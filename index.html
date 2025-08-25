@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tea House Website</title>
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Fontawesome cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tea House Website</title>
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Fontawesome cdn -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
 
-    <!-- Tailwind cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
+  <!-- ✅ Tailwind cdn (only this one) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
           },
         },
-      };
-    </script>
-  </head>
+      },
+    };
+  </script>
+</head>
+
   <body>
     <!-- Main content -->
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
@@ -129,6 +128,58 @@
             <p class="text-gray-600">Premium Quality that makes tea more elegant and more durable when you use it.</p>
           </div>
          </div>
+      </section>
+
+      <section class="mb-24">
+        <div class="h-auto bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2
+        text-white px-7 lg:px-16">
+        <div class="flex justify-center items-center overflow-hidden">
+          <div class="w-5/6">
+          <h1  class="text-5xl font-bold mb-5 mt-10">Meet Our Super Clients</h1>
+          <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          <button class="bg-white text-orange-700 font-bold rounded-lg px-3 py-2 mb-5">Show All</button>
+        </div>
+        </div>
+
+
+        <div class="relative py-24">
+          <div class="relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg opacity-40">
+            <div class="relative -top-5 -left-5 bg-white rounded-full w-1/6"><img class="p-1" src="images/client.png" alt=""></div>
+            <div class="px-10">
+              <p class="text-gray-500 mb-2">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <h4 class="text-black font-bold">Ilham Yuda</h4>
+              <p class="text-gray-500">Businessman</p>
+            </div>
+          </div>
+
+
+          <div class="absolute">
+            <div class="relative -top-20 h-56 w-full md:w-3/4 bg-white text-black rounded-lg
+            z-10">
+            <div class="relative -top-5 -left-5 bg-white rounded-full w-1/6"><img class="p-1" src="images/client.png" alt=""></div>
+            <div class="px-10">
+              <p class="text-gray-500 mb-2">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <h4 class="text-black font-bold">Ilham Yuda</h4>
+              <p class="text-gray-500">Businessman</p>
+            </div>
+          </div>
+          </div>
+
+           <div class="relative left-8 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg opacity-40">
+            <div class="relative  -top-5 -left-5 bg-white rounded-full w-1/6"><img class="p-1" src="images/client.png" alt=""></div>
+            <div class="px-10">
+              <p class="text-gray-500 mb-2">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <h4 class="text-black font-bold">Ilham Yuda</h4>
+              <p class="text-gray-500">Businessman</p>
+            </div>
+          </div>
+        </div>
+
+        
+      
+      
+      </div>
+
       </section>
     </main>
   </body>
